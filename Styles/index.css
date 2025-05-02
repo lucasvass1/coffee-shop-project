@@ -48,7 +48,8 @@ header {
   font-size: 16px;
 }
 
-.btn1 {
+.btn1,
+.btn2 {
   background-color: #f9c06a;
   color: #1e1e1e;
   border: none;
@@ -58,30 +59,14 @@ header {
   font-size: 14px;
   width: 100px;
   height: 48px;
-  white-space: nowrap;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
   text-align: center;
 }
 
 .btn2 {
-  background-color: #f9c06a;
-  color: #1e1e1e;
-  border: none;
-  cursor: pointer;
-  font-weight: 400;
-  border-radius: 20px;
-  font-size: 14px;
   width: 134px;
-  height: 48px;
-  white-space: nowrap;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  text-align: center;
 }
 
 nav.menu ul {
@@ -90,7 +75,7 @@ nav.menu ul {
   gap: 20px;
   font-family: "Playfair Display", serif;
   font-size: 14px;
-  color: #ffffff;
+  color: #fff;
 }
 
 nav.menu a {
@@ -101,7 +86,7 @@ nav.menu a {
 
 .subtitle {
   font-size: 22px;
-  color: #ffffff;
+  color: #fff;
   font-family: "Playfair Display", serif;
   font-weight: 500;
 }
@@ -115,7 +100,7 @@ nav.menu a {
 .desc {
   font-family: "Playfair Display", serif;
   font-size: 20px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 400;
   width: 527px;
   height: 102px;
@@ -165,7 +150,6 @@ nav.menu a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
 }
 
 .hero-images {
@@ -180,16 +164,18 @@ nav.menu a {
   width: 500px;
   height: 484px;
 }
+
 .hero-text img {
   position: relative;
-
   left: 0;
   z-index: 0;
 }
+
 .coffee-blast {
   margin-top: -90px;
   width: 498px;
 }
+
 .hero-text2 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
@@ -198,6 +184,7 @@ nav.menu a {
   margin-top: -36px;
   text-align: center;
 }
+
 .hero-text2 p {
   font-family: "Playfair Display", serif;
   font-size: 20px;
@@ -205,11 +192,12 @@ nav.menu a {
   text-align: center;
   font-weight: 400;
 }
+
 .coffes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; /* espaçamento entre os cards */
+  gap: 20px;
   padding: 40px 20px;
 }
 
@@ -224,7 +212,7 @@ nav.menu a {
   padding: 20px;
   box-sizing: border-box;
   border-radius: 10px;
-  border: 1px solid #f9c06a; /* contorno amarelo */
+  border: 1px solid #f9c06a;
 }
 
 .coffe1 img {
