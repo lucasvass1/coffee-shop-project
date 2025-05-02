@@ -188,4 +188,91 @@ nav.menu a {
 }
 .coffee-blast {
   margin-top: -90px;
+  width: 498px;
+}
+.hero-text2 h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #603809;
+  font-size: 54px;
+  margin-top: -36px;
+  text-align: center;
+}
+.hero-text2 p {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: #707070;
+  text-align: center;
+  font-weight: 400;
+}
+.coffes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* espaçamento entre os cards */
+  padding: 40px 20px;
+}
+
+.coffe1 {
+  width: 280px;
+  height: 364px;
+  background-color: #fff9f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #f9c06a; /* contorno amarelo */
+}
+
+.coffe1 img {
+  margin-bottom: 15px;
+}
+
+.coffe1 h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #603809;
+  text-align: center;
+  margin: 10px 0 5px;
+}
+
+.coffe1 p {
+  font-family: "Playfair Display", serif;
+  color: #1e1e1e;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.p2 {
+  font-family: "Playfair Display", serif;
+  color: #603809;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.coffe1 button {
+  background-color: #f9c06a;
+  color: #1e1e1e;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 134px;
+  height: 48px;
+}
+
+.coffe1 button:hover {
+  background-color: #e0aa4b;
 }
