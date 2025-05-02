@@ -120,3 +120,72 @@ nav.menu a {
   width: 527px;
   height: 102px;
 }
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  background-color: #fff;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #603809;
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #707070;
+  margin-bottom: 30px;
+}
+
+.learn-more-btn {
+  background-color: #f9c06a;
+  color: #1e1e1e;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 134px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.hero-images {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.coffee-cup {
+  width: 500px;
+  height: 484px;
+}
+.hero-text img {
+  position: relative;
+
+  left: 0;
+  z-index: 0;
+}
+.coffee-blast {
+  margin-top: -90px;
+}
