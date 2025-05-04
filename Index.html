@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee Shop</title>
     <link rel="stylesheet" href="Styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -109,5 +115,70 @@
         </div>
       </div>
     </section>
+
+    <section class="cards">
+      <div class="card card1"><button>All items</button></div>
+      <div class="card card2"><button>Warm drinks</button></div>
+      <div class="card card3"><button>Cold drinks</button></div>
+      <div class="card card4"><button>Snacks</button></div>
+      <div class="card card5"><button>Dessert</button></div>
+    </section>
+
+    <table class="menu-items">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Type</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="warm">
+          <td class="item-name">Espresso</td>
+          <td class="item-type">Warm drink</td>
+          <td class="item-price">R$ 1,99</td>
+        </tr>
+        <tr class="warm">
+          <td class="item-name">Vanilla Latte</td>
+          <td class="item-type">Warm drink</td>
+          <td class="item-price">R$ 3,99</td>
+        </tr>
+        <tr class="snack">
+          <td class="item-name">Sandwich</td>
+          <td class="item-type">Snack</td>
+          <td class="item-price">R$ 4,99</td>
+        </tr>
+        <tr class="dessert">
+          <td class="item-name">Cheesecake</td>
+          <td class="item-type">Dessert</td>
+          <td class="item-price">R$ 11,99</td>
+        </tr>
+        <tr class="cold">
+          <td class="item-name">Caramel Frappuccino</td>
+          <td class="item-type">Cold drink</td>
+          <td class="item-price">R$ 4,99</td>
+        </tr>
+        <tr class="cold">
+          <td class="item-name">Cold Mocha</td>
+          <td class="item-type">Cold drink</td>
+          <td class="item-price">R$ 2,99</td>
+        </tr>
+        <tr class="snack">
+          <td class="item-name">Cheese Croissant</td>
+          <td class="item-type">Snack</td>
+          <td class="item-price">R$ 2,99</td>
+        </tr>
+        <tr class="dessert">
+          <td class="item-name">Strawberry cake</td>
+          <td class="item-type">Dessert</td>
+          <td class="item-price">R$ 7,99</td>
+        </tr>
+        <tr class="warm">
+          <td class="item-name">Hot chocolate</td>
+          <td class="item-type">Warm drink</td>
+          <td class="item-price">R$ 4,99</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>

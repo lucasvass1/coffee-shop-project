@@ -37,15 +37,26 @@ header {
 }
 
 .title {
-  font-family: "Great Vibes", cursive;
-  font-size: 80px;
+  font-family: "Clicker Script", serif;
+  font-size: 220px;
+  font-weight: 400;
   margin: 0;
 }
 
-.subtitle,
+.subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+}
+
 .desc {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+  width: 527px;
+  height: 102px;
 }
 
 .btn1,
@@ -82,28 +93,6 @@ nav.menu a {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
-}
-
-.subtitle {
-  font-size: 22px;
-  color: #fff;
-  font-family: "Playfair Display", serif;
-  font-weight: 500;
-}
-
-.title {
-  font-size: 220px;
-  font-family: "Clicker Script", serif;
-  font-weight: 400;
-}
-
-.desc {
-  font-family: "Playfair Display", serif;
-  font-size: 20px;
-  color: #fff;
-  font-weight: 400;
-  width: 527px;
-  height: 102px;
 }
 
 .hero-section {
@@ -263,4 +252,121 @@ nav.menu a {
 
 .coffe1 button:hover {
   background-color: #e0aa4b;
+}
+
+.cards {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 12px;
+  margin: 40px auto 0;
+  padding-left: 15px;
+  width: 1180px;
+}
+
+.cards button {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  padding: 0 16px;
+}
+
+.card1 button {
+  background-color: #f9c06a;
+  color: #603809;
+  width: 121px;
+}
+
+.card2 button,
+.card3 button,
+.card4 button,
+.card5 button {
+  background-color: transparent;
+  color: #aa8558;
+  border: 1px solid #f9c06a;
+}
+
+.card2 button {
+  width: 151px;
+}
+.card3 button {
+  width: 142px;
+}
+.card4 button {
+  width: 109px;
+}
+.card5 button {
+  width: 113px;
+}
+
+.cards button:hover {
+  background-color: #f9c06a;
+  color: #603809;
+}
+
+.menu-items {
+  width: 1180px;
+  height: 580px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.menu-items::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #f9c06a;
+  border-radius: 8px;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.menu-items th {
+  background-color: #ffeed8;
+  font-size: 22px;
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+  color: #603809;
+  border-bottom: 2px solid #eee;
+  font-family: "Playfair Display", serif;
+}
+
+.menu-items td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  color: #555;
+}
+
+.menu-items tr:last-child td {
+  border-bottom: none;
+}
+
+.menu-items tr:hover {
+  background-color: #f9f9f9;
+}
+
+.menu-items .item-name,
+.menu-items .item-type,
+.menu-items .item-price {
+  color: #968162;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.menu-items .item-type {
+  font-style: italic;
 }
