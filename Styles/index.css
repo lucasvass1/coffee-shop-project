@@ -293,12 +293,15 @@ nav.menu a {
 .card2 button {
   width: 151px;
 }
+
 .card3 button {
   width: 142px;
 }
+
 .card4 button {
   width: 109px;
 }
+
 .card5 button {
   width: 113px;
 }
@@ -369,4 +372,199 @@ nav.menu a {
 
 .menu-items .item-type {
   font-style: italic;
+}
+
+.coffee-section {
+  background-image: url("../Images/Group 38.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 574px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.coffee-content {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coffee-text {
+  max-width: 600px;
+}
+
+.coffee-text h2 {
+  font-size: 54px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.coffee-text p {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.order-btn {
+  background-color: #f9c06a;
+  color: #603809;
+  border: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #e0a84f;
+}
+
+.coffee-image {
+  position: relative;
+}
+
+.coffee-img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.coffee-label {
+  position: absolute;
+  bottom: -20px;
+  right: 40px;
+  background-color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 24px;
+  font-weight: 700;
+  color: #603809;
+}
+
+.testimonial-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial-section h1 {
+  font-size: 54px;
+  font-family: "Playfair Display", serif;
+  color: #603809;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.testimonial-section .subtitle {
+  color: #707070;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.testimonial-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.arrow {
+  background-color: #f9c06a;
+  border: none;
+  width: 82px;
+  height: 82px;
+  border-radius: 16px;
+  font-size: 24px;
+  color: #603809;
+  cursor: pointer;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.arrow:hover {
+  transform: scale(1.05);
+}
+
+.testimonial-container {
+  overflow: hidden;
+  width: 1062px;
+  height: auto;
+  position: relative;
+}
+
+.testimonial {
+  background-color: #fff9f1;
+  padding: 40px 20px;
+  border-radius: 10px;
+  border: 1px solid #f9c06a;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 0.5s ease;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.testimonial.active {
+  opacity: 1;
+  transform: translateX(0);
+  position: relative;
+}
+
+.testimonial .quote {
+  font-size: 40px;
+  color: #603809;
+  display: block;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.testimonial .text {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.testimonial h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #603809;
+  margin: 10px 0 5px;
+}
+
+.testimonial .role {
+  font-size: 20px;
+  font-weight: 500;
+  color: #707070;
+  margin-bottom: 15px;
+  line-height: 34px;
+}
+
+.testimonial img {
+  width: 112px;
+  height: 112px;
+  border-radius: 12px;
+  object-fit: cover;
 }
