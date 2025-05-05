@@ -14,7 +14,7 @@ body {
 .hero {
   width: 100vw;
   height: 100vh;
-  background: url("../Images/bg-overlay.png") no-repeat center center / cover;
+  background: url("../Images/bg-overlay.png") no-repeat center center/cover;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -43,17 +43,19 @@ header {
   margin: 0;
 }
 
-.subtitle {
+.subtitle,
+.desc {
   font-family: "Playfair Display", serif;
-  font-size: 22px;
   color: #fff;
+}
+
+.subtitle {
+  font-size: 22px;
   font-weight: 500;
 }
 
 .desc {
-  font-family: "Playfair Display", serif;
   font-size: 20px;
-  color: #fff;
   font-weight: 400;
   width: 527px;
   height: 102px;
@@ -68,12 +70,15 @@ header {
   font-weight: 400;
   border-radius: 20px;
   font-size: 14px;
-  width: 100px;
   height: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.btn1 {
+  width: 100px;
 }
 
 .btn2 {
@@ -375,7 +380,7 @@ nav.menu a {
 }
 
 .coffee-section {
-  background-image: url("../Images/Group 38.png");
+  background-image: url("../Images/Group\ 38.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -567,4 +572,22 @@ nav.menu a {
   height: 112px;
   border-radius: 12px;
   object-fit: cover;
+}
+
+.decor-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 414px;
+  height: 226px;
+  z-index: 1;
+}
+
+.decor-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 498px;
+  height: 272px;
+  z-index: 1;
 }
