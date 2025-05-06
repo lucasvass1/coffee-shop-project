@@ -71,10 +71,23 @@ header {
   border-radius: 20px;
   font-size: 14px;
   height: 48px;
-  display: flex;
+  line-height: 1;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  white-space: nowrap;
+  padding: 0 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  margin: 0 8px;
+}
+
+.btn1:hover,
+.btn2:hover {
+  background-color: #e2a94f;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
 .btn1 {
@@ -141,9 +154,19 @@ nav.menu a {
   font-size: 16px;
   width: 134px;
   height: 48px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.learn-more-btn:hover {
+  background-color: #e2a94f;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
 .hero-images {
