@@ -55,12 +55,10 @@ document.addEventListener("DOMContentLoaded", () => {
     showMessage("You have unsubscribed.", "orange");
   }
 
-  // Inicialização: verificar se já tem e-mail no localStorage
   if (savedEmail && isValidEmail(savedEmail)) {
     updateUIForSubscribed(savedEmail);
   }
 
-  // Ação do botão
   subscribeBtn.addEventListener("click", () => {
     if (subscribeBtn.textContent === "Unsubscribe") {
       localStorage.removeItem("subscribedEmail");
