@@ -1,0 +1,30 @@
+[
+  {
+    "id": "cappuccino",
+    "name": "Cappuccino",
+    "image": "cappuccino",
+    "composition": "Café 35% · Leite 65%",
+    "price": 12.5
+  },
+  {
+    "id": "chai-latte",
+    "name": "Chai Latte",
+    "image": "chai-latte",
+    "composition": "Chá especiado 30% · Leite 70%",
+    "price": 15.5
+  },
+  {
+    "id": "macchiato",
+    "name": "Macchiato",
+    "image": "macchiato",
+    "composition": "Café 65% · Leite 35%",
+    "price": 14.9
+  },
+  {
+    "id": "espresso",
+    "name": "Espresso",
+    "image": "espresso",
+    "composition": "Café 100% · Extração curta",
+    "price": 9.9
+  }
+]

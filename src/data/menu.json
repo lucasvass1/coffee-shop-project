@@ -1,0 +1,12 @@
+[
+  { "id": "espresso", "name": "Espresso", "category": "warm", "price": 9.9 },
+  { "id": "latte-baunilha", "name": "Latte de Baunilha", "category": "warm", "price": 13.9 },
+  { "id": "chocolate-quente", "name": "Chocolate Quente", "category": "warm", "price": 14.9 },
+  { "id": "frappuccino-caramelo", "name": "Frappuccino de Caramelo", "category": "cold", "price": 16.9 },
+  { "id": "mocha-gelado", "name": "Mocha Gelado", "category": "cold", "price": 12.9 },
+  { "id": "cold-brew", "name": "Cold Brew", "category": "cold", "price": 13.5 },
+  { "id": "sanduiche-natural", "name": "Sanduíche Natural", "category": "snack", "price": 17.9 },
+  { "id": "croissant-queijo", "name": "Croissant de Queijo", "category": "snack", "price": 11.9 },
+  { "id": "cheesecake", "name": "Cheesecake", "category": "dessert", "price": 18.9 },
+  { "id": "torta-morango", "name": "Torta de Morango", "category": "dessert", "price": 15.9 }
+]

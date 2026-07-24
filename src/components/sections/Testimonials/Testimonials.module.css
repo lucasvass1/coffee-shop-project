@@ -1,0 +1,139 @@
+.section {
+  background-color: var(--color-white);
+  padding-block: var(--space-24);
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.decorLeft,
+.decorRight {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.9;
+  width: clamp(180px, 22vw, 320px);
+}
+
+.decorLeft {
+  left: 0;
+  bottom: 0;
+}
+
+.decorRight {
+  right: 0;
+  top: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.eyebrow {
+  font-weight: 700;
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--color-gold-500);
+  margin-bottom: var(--space-3);
+}
+
+.section h2 {
+  font-size: var(--text-3xl);
+  margin-bottom: var(--space-3);
+}
+
+.subtitle {
+  color: var(--color-neutral-500);
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-12);
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-6);
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.viewport {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+}
+
+.card {
+  background-color: var(--color-ivory-card);
+  border: var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: var(--space-10);
+  text-align: left;
+}
+
+.quote {
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  color: var(--color-gold-500);
+  line-height: 1;
+}
+
+.text {
+  font-size: var(--text-lg);
+  color: var(--color-neutral-600);
+  line-height: var(--leading-normal);
+  margin-block: var(--space-4) var(--space-6);
+}
+
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+  margin-bottom: var(--space-3);
+}
+
+.card h3 {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-1);
+}
+
+.role {
+  color: var(--color-neutral-500);
+  font-size: var(--text-sm);
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2);
+  margin-top: var(--space-8);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-neutral-300);
+}
+
+.dotActive {
+  background-color: var(--color-gold-500);
+  width: 24px;
+}
+
+@media (max-width: 599px) {
+  .carousel {
+    gap: var(--space-3);
+  }
+
+  .card {
+    padding: var(--space-6);
+  }
+
+  .decorLeft,
+  .decorRight {
+    opacity: 0.5;
+  }
+}

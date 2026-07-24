@@ -1,0 +1,123 @@
+.footer {
+  background-color: var(--color-espresso-900);
+  background-size: cover;
+  background-position: center;
+  color: var(--color-cream-50);
+  padding-block: var(--space-20) var(--space-8);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1.2fr;
+  gap: var(--space-10);
+}
+
+.brandColumn {
+  max-width: 320px;
+}
+
+.logo {
+  font-family: var(--font-accent);
+  font-size: var(--text-3xl);
+  color: var(--color-cream-50);
+  margin-bottom: var(--space-4);
+}
+
+.about {
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  color: var(--color-neutral-100);
+  margin-bottom: var(--space-5);
+}
+
+.title {
+  font-size: var(--text-lg);
+  color: var(--color-cream-50);
+  margin-bottom: var(--space-5);
+}
+
+.links li {
+  margin-bottom: var(--space-3);
+}
+
+.links a {
+  font-size: var(--text-sm);
+  color: var(--color-neutral-300);
+  transition: color var(--duration-fast) var(--ease-standard);
+}
+
+.links a:hover {
+  color: var(--color-cream-50);
+}
+
+.address {
+  font-style: normal;
+  font-size: var(--text-sm);
+  line-height: 1.8;
+  color: var(--color-neutral-300);
+}
+
+.address a {
+  color: var(--color-neutral-300);
+}
+
+.address a:hover {
+  color: var(--color-cream-50);
+  text-decoration: underline;
+}
+
+.social {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.social a {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social img {
+  width: 1.4rem;
+  height: 1.4rem;
+  filter: brightness(0.85);
+  transition: filter var(--duration-fast) var(--ease-standard),
+    transform var(--duration-fast) var(--ease-standard);
+}
+
+.social a:hover img {
+  filter: brightness(1);
+  transform: translateY(-2px);
+}
+
+.copyright {
+  text-align: center;
+  font-size: var(--text-xs);
+  color: var(--color-neutral-300);
+  margin-top: var(--space-16);
+  padding-top: var(--space-6);
+  border-top: 1px solid rgba(251, 246, 238, 0.12);
+}
+
+@media (max-width: 899px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 599px) {
+  .grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .brandColumn {
+    max-width: 100%;
+  }
+
+  .social {
+    justify-content: center;
+  }
+}

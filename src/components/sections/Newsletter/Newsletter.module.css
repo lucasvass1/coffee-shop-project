@@ -1,0 +1,79 @@
+.newsletter {
+  background-size: cover;
+  background-position: center;
+  padding-block: var(--space-20);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-10);
+}
+
+.text {
+  max-width: 560px;
+  color: var(--color-cream-50);
+}
+
+.text h2 {
+  font-size: var(--text-3xl);
+  color: var(--color-cream-50);
+  margin-bottom: var(--space-4);
+}
+
+.text > p {
+  font-size: var(--text-lg);
+  color: var(--color-neutral-100);
+  line-height: var(--leading-normal);
+  margin-bottom: var(--space-6);
+}
+
+.form {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.message {
+  margin-top: var(--space-3);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.success {
+  color: var(--color-success);
+}
+
+.error {
+  color: #f4a99c;
+}
+
+.muted {
+  color: var(--color-neutral-100);
+}
+
+.cupImage {
+  width: 320px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 899px) {
+  .wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+
+  .cupImage {
+    width: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "joana",
+    "name": "Joana Martins",
+    "role": "Gerente de Projetos",
+    "avatar": "avatar-cliente-1",
+    "text": "A Bean Scene virou meu refúgio. O espresso encorpado logo de manhã e o ambiente aconchegante para as reuniões fazem toda a diferença no meu dia."
+  },
+  {
+    "id": "emilia",
+    "name": "Emília Rocha",
+    "role": "Coordenadora de Marketing",
+    "avatar": "avatar-cliente-2",
+    "text": "Adoro esse lugar. A equipe é sempre atenciosa e o café é excelente — virou parte fixa da minha rotina matinal."
+  },
+  {
+    "id": "miguel",
+    "name": "Miguel Lima",
+    "role": "Designer de Produto",
+    "avatar": "avatar-cliente-3",
+    "text": "As melhores sobremesas da região e um clima super aconchegante. O lugar perfeito para relaxar depois de um dia corrido."
+  }
+]

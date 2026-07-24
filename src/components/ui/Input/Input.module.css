@@ -1,0 +1,18 @@
+.input {
+  width: 100%;
+  height: 3.5rem;
+  padding-inline: var(--space-5);
+  border-radius: var(--radius-sm);
+  border: none;
+  font-size: var(--text-base);
+  color: var(--color-charcoal-900);
+  background-color: var(--color-cream-50);
+}
+
+.input::placeholder {
+  color: var(--color-neutral-500);
+}
+
+.input:disabled {
+  opacity: 0.7;
+}

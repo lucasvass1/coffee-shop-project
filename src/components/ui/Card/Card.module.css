@@ -1,0 +1,7 @@
+.card {
+  background-color: var(--color-ivory-card);
+  border: var(--border-subtle);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-6);
+}
